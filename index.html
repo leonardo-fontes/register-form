@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form example</title>
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="title">• Registro •</h1>
+      <form class="form" id="form" action="">
+        <div class="input">
+          <input type="text" id="uname" name="uname" required />
+          <label for="uname">Nome</label>
+          <span class="error"></span>
+        </div>
+
+        <div class="input">
+          <input type="email" id="mail" name="mail" required />
+          <label for="mail">Email</label> <span class="error"></span>
+        </div>
+
+        <div class="input">
+          <input type="tel" id="cep" name="cep" required />
+          <label for="cep">CEP</label>
+          <span class="error"></span>
+        </div>
+
+        <div class="input">
+          <input type="tel" id="phone" name="phone" required />
+          <label for="phone">Telefone</label>
+          <span class="error"></span>
+        </div>
+
+        <div class="input">
+          <input type="password" id="pass" name="pass" required />
+          <label for="pass">Senha</label>
+          <span class="error"></span>
+        </div>
+
+        <div class="advice">
+          <input id="advice" type="checkbox" />
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+            debitis dicta. Libero, quibusdam minima laudantium</span
+          >
+        </div>
+        <button class="btn" type="submit" method="POST">CRIAR CONTA</button>
+      </form>
+
+      <span class="lastp"> Já tem uma conta?<a href=""> Entre aqui</a> </span>
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
